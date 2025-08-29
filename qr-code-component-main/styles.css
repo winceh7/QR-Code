@@ -8,11 +8,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .container{
-    max-width: 1440px;
-    min-width: 375px;
+    min-width: 300px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -20,11 +20,11 @@ body {
 
 .card {
     width: 100%;
-    max-width: 360px;
+    max-width: 340px;
     height: 60%;
     background-color: white;
     border-radius: 20px;
-    transform: translate(0, 60%);
+    transform: translate(0, 50%);
 }
 
 .qrBox {
@@ -43,11 +43,20 @@ body {
     text-align: center;
     display: block;
     width: 100%;
-    padding: 10px 24px 24px;
+    padding: 5px 24px 24px;
 }
 
 h1 {
-    
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
 }
 
 .attribution {

@@ -15,9 +15,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+This is a small website showcasing an image of a QR code with some stylized text underneath it, all inside a white rectangle in the middle of the screen.
+
 
 ### Screenshot
 
@@ -36,6 +38,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
+
 ## My process
 
 ### Built with
@@ -45,11 +48,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -77,16 +75,14 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+For future projects I plan on practicing with the layout systems as well as trying to see ways to customize and stylize the projects combining different libraries to develop websites, web pages and web apps with a more complex design as in this project only HTML and CSS were used.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Why you should always set responsive mode to 320px when checking "mobile layout" on your web pages](https://dev.to/lebbe/why-you-should-always-set-responsive-mode-to-320px-when-checking-mobile-layout-on-your-web-pages-3gd9) - This helped me understand and gave me some insight on the requirement for testing on mobile layouts.
+- [Why you should choose HTML5 article over section](https://www.smashingmagazine.com/2020/01/html5-article-section/) - This is an amazing article which helped me finally understand the differences between div, section and article.
+- [CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS) - This helped me explore any properties, selectors and elements that might be unknown to me as well as layout and guide systems like Flexbox and CSS Grids
 
 ## Author
 
@@ -98,6 +94,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thankful with Frontend Mentor for having this challenge for free and letting me practice my skills and help me grow as a (at the time) beginner Front-End Developer.
