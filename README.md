@@ -36,7 +36,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Repository](https://github.com/winceh7/QR-Code)
-- Live Site URL: [QR Code Web Page](https://winceh7.github.io/QR-Code/qr-code-component-main)
+- Live Site URL: [QR Code Web Page](https://winceh7.github.io/QR-Code/)
 
 
 ## My process
