@@ -24,13 +24,13 @@ body {
     height: 60%;
     background-color: white;
     border-radius: 20px;
-    transform: translate(0, 50%);
+    transform: translate(0, 60%);
 }
 
 .qrBox {
     display: block;
     width: 100%;
-    padding: 18px;
+    padding: 18px 18px 10px;
 }
 
 .qrBox img {
@@ -43,7 +43,11 @@ body {
     text-align: center;
     display: block;
     width: 100%;
-    padding: 24px;
+    padding: 10px 24px 24px;
+}
+
+h1 {
+    
 }
 
 .attribution {
