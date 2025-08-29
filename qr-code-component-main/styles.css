@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 1440px;
+    min-width: 375px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 360px;
+    height: 60%;
+    background-color: white;
+    border-radius: 20px;
+    transform: translate(0, 50%);
+}
+
+.qrBox {
+    display: block;
+    width: 100%;
+    padding: 18px;
+}
+
+.qrBox img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 24px;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 11px; 
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    color: hsl(228, 45%, 44%);
+ }
