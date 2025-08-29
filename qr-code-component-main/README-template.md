@@ -23,7 +23,7 @@ This is a small website showcasing an image of a QR code with some stylized text
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/screenshot.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -36,7 +36,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [QR Code](https://winceh7.github.io/QR-Code/)
 
 
 ## My process
@@ -87,11 +87,11 @@ For future projects I plan on practicing with the layout systems as well as tryi
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@winceh7](https://www.frontendmentor.io/profile/winceh7)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-Thankful with Frontend Mentor for having this challenge for free and letting me practice my skills and help me grow as a (at the time) beginner Front-End Developer.
+Thankful with Frontend Mentor for having this challenge for free and letting me practice my skills and help me grow as a beginner Front-End Developer.
