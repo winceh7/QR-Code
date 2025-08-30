@@ -46,16 +46,9 @@ This is a small website showcasing an image of a QR code with some stylized text
 
 ### What I learned
 
-The challenge being recreating the design, having to center elements made me learn how to use Flexbox and CSS Grids with the display property along with combining it with other properties in order to align the elements inside the box and the contents of each.
+The challenge being recreating the design, having to center elements made me learn how to use Flexbox and CSS Grids with the display property along with combining it with other properties in order to align the elements inside the box and the contents of each. A key, in my case when researching, was the transform property as it gave me the missing piece to center the design.
 
- What made it key, in my case when researching, was the transform property as it gave me the missing piece to center the design.
 ```css
-.container{
-    min-width: 300px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 .card {
     width: 100%;
     max-width: 340px;
@@ -65,13 +58,24 @@ The challenge being recreating the design, having to center elements made me lea
     transform: translate(0, 50%);
 }
 ```
-
 As there was only going to be one central element, I decided to work without margins setting the box-size to the border of the box.
 ```css
 div {
     box-sizing: border-box;
 }
 ```
+
+ A key point for the development was the responsiveness of the web page as I wanted it to be visible for small and big screens.
+
+```css
+.container{
+    min-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+```
+
 As a beginner Front-end Developer I have a long way to go with a lot to learn and develop my skillset. This project helped me put into a broader perspective how well each element must interact with each other through correct syntax and use of tags in order for a web page to work and look as intended. The importance of the communication between the HTML code and CSS for stylization as the project was developed using only these languages.
 
 
