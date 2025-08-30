@@ -51,15 +51,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-While developing the project I came across some articles regarding best practices for web development like how to 
+While developing the project I came across some articles regarding best practices for web development talking about elements that can simplify accessibility, best uses of CSS properties for layout and stylization as well as discovering some of these, deciding to experiment with them and making the project heavily focused on working in my CSS skills.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-* {
+div {
     box-sizing: border-box;
 }
 ```
