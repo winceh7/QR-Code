@@ -53,6 +53,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 While developing the project I came across some articles regarding best practices for web development talking about elements that can simplify accessibility, best uses of CSS properties for layout and stylization as well as discovering some of these, deciding to experiment with them and making the project heavily focused on working in my CSS skills.
 
+For <div>
 ```css
 div {
     box-sizing: border-box;
