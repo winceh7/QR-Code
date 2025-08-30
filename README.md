@@ -2,6 +2,7 @@
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -18,20 +19,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-This is a small website showcasing an image of a QR code with some stylized text underneath it, all inside a white rectangle in the middle of the screen.
+This is a small website showcasing an image of a QR code with some stylized text underneath it, all inside a white rectangle in the middle of the screen. All using only HTML and CSS.
 
 
 ### Screenshot
 
 ![](images/screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -49,36 +43,55 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS Grid
 - Mobile-first workflow
 
+
 ### What I learned
 
-While developing the project I came across some articles regarding best practices for web development talking about elements that can simplify accessibility, best uses of CSS properties for layout and stylization as well as discovering some of these, deciding to experiment with them and making the project heavily focused on working in my CSS skills.
+The challenge being recreating the design, having to center elements made me learn how to use Flexbox and CSS Grids with the display property along with combining it with other properties in order to align the elements inside the box and the contents of each.
 
-For \<div>\
+ What made it key, in my case when researching, was the transform property as it gave me the missing piece to center the design.
+```css
+.container{
+    min-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 100%;
+    max-width: 340px;
+    height: 60%;
+    background-color: white;
+    border-radius: 20px;
+    transform: translate(0, 50%);
+}
+```
+
+As there was only going to be one central element, I decided to work without margins setting the box-size to the border of the box.
 ```css
 div {
     box-sizing: border-box;
 }
 ```
+As a beginner Front-end Developer I have a long way to go with a lot to learn and develop my skillset. This project helped me put into a broader perspective how well each element must interact with each other through correct syntax and use of tags in order for a web page to work and look as intended. The importance of the communication between the HTML code and CSS for stylization as the project was developed using only these languages.
 
 
 ### Continued development
 
-For future projects I plan on practicing with the layout systems as well as trying to see ways to customize and stylize the projects combining different libraries to develop websites, web pages and web apps with a more complex design as in this project only HTML and CSS were used.
+For future projects I plan on practicing with the layout systems as well as trying to see ways to customize and stylize the projects combining different libraries to develop websites, web pages and web apps with a more complex design.
 
 
 ### Useful resources
 
 - [Why you should always set responsive mode to 320px when checking "mobile layout" on your web pages](https://dev.to/lebbe/why-you-should-always-set-responsive-mode-to-320px-when-checking-mobile-layout-on-your-web-pages-3gd9) - This helped me understand and gave me some insight on the requirement for testing on mobile layouts.
 - [Why you should choose HTML5 article over section](https://www.smashingmagazine.com/2020/01/html5-article-section/) - This is an amazing article which helped me finally understand the differences between div, section and article.
-- [CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS) - This helped me explore any properties, selectors and elements that might be unknown to me as well as layout and guide systems like Flexbox and CSS Grids
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - This helped me explore any properties, selectors and elements that might be unknown to me as well as layout and guide systems like Flexbox and CSS Grids.
+
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- GitHub - [winceh7](https://github.com/winceh7)
 - Frontend Mentor - [@winceh7](https://www.frontendmentor.io/profile/winceh7)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
